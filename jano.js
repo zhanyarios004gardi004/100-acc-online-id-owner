@@ -6,7 +6,7 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 setInterval(() => {
-  http.get(`http://spam-1-20.glitch.me/`);
+  http.get(``);
 }, 280000);
 
 ///////////// 100 acc vc
